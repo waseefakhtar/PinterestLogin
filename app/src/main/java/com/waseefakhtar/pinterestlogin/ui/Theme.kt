@@ -2,20 +2,22 @@ package com.waseefakhtar.pinterestlogin.ui
 
 import androidx.compose.Composable
 import androidx.ui.foundation.isSystemInDarkTheme
+import androidx.ui.material.ColorPalette
 import androidx.ui.material.MaterialTheme
 import androidx.ui.material.darkColorPalette
 import androidx.ui.material.lightColorPalette
 
 private val DarkColorPalette = darkColorPalette(
-        primary = purple200,
-        primaryVariant = purple700,
-        secondary = teal200
+        primary = red,
+        primaryVariant = black,
+        secondary = westar,
+        onPrimary = white
 )
 
 private val LightColorPalette = lightColorPalette(
-        primary = purple500,
-        primaryVariant = purple700,
-        secondary = teal200
+        primary = red,
+        primaryVariant = white,
+        secondary = westar
 
         /* Other default colors to override
     background = Color.White,
